@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+
+
+
+        <TextView
+            android:id="@+id/viewItemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Item Name : "
+            android:textSize="15sp"
+            android:textColor="#2a39a7" />
+
+        <TextView
+            android:id="@+id/viewItemQuantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Item Quantity :"
+            android:textSize="15sp"
+            android:textColor="#2a39a7"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/viewItemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Item Price :"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:textColor="#2a39a7" />
+
+        <TextView
+            android:id="@+id/viewItemTotalPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Total Price :"
+            android:textSize="20sp"
+            android:textColor="#fba72a36" />
+
+    </LinearLayout>
+
+</LinearLayout>
